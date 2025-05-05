@@ -1,0 +1,22 @@
+
+#peliculas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 10px;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+
+    .img-peliculas {
+        width: 210px;
+        height: 300px;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+    }
+}
+
+
+

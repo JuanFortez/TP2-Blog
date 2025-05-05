@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", "serif";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: url(https://s0.smartresize.com/wallpaper/789/997/HD-wallpaper-code-programming-text-technology.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+  nav {
+    background-color: #f94848;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 70px;
+    width: 100%;
+    display: flex;
+
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+      padding: 0;
+
+      .img-nav {
+        width: 50px;
+        height: 50px;
+        float: left;
+      }
+
+      li {
+        font-size: 24px;
+        color: white;
+        display: inline;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+
+  .contenedor {
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      font-size: 24px;
+      margin: 15px;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4caf50;
+      border: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+
+      &:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+
+  .resincor {
+    color: red;
+    font-weight: bold;
+    
+    p {
+      font-size: 40px;
+    }
+  }
+}

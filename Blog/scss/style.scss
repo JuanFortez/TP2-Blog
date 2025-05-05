@@ -1,0 +1,18 @@
+//base
+@import "base/fonts";
+@import "base/reset";
+@import "base/vars";
+@import "base/utilities";
+
+//components
+@import "components/footer";
+@import "components/header";
+@import "components/navbar";
+
+//layouts
+@import "layouts/index";
+@import "layouts/sitact";
+@import "layouts/distribucion";
+@import "layouts/noticias";
+@import "layouts/contacto";
+@import "layouts/mediaqueries";

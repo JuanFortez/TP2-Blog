@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", "serif";
+}
+
+body {
+  background-color: #e72522e9;
+}
+
+nav {
+  background-color: #f94848;
+  height: 70px;
+  width: 100%;
+  display: flex;
+
+  .ul-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+  }
+
+  .img-nav {
+    width: 50px;
+    height: 50px;
+    float: left;
+  }
+
+  li {
+    font-size: 24px;
+    color: white;
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+header {
+  text-align: center;
+  background-color: rgb(165, 48, 48);
+  padding: 20px 0;
+
+  .h1-header {
+    color: #ffffff;
+    font-size: 40px;
+  }
+}
+
+main {
+  height: 800px;
+  display: flex;
+
+  aside {
+    background-color: rgb(223, 47, 47);
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ul-aside {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 50%;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 10px 0;
+      font-size: 24px;
+
+      a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        transition: all 0.2s ease-out;
+
+        
+
+        &:hover {
+          color: rgb(255, 50, 50);
+          font-size: 30px;
+          padding: 5px;
+          background-color: rgb(255, 255, 255);
+          border-radius: 10px;
+          transition: all 0.2s ease-in;
+        }
+      }
+    }
+  }
+
+  section {
+    background-color: rgb(255, 58, 58);
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    .h1-section {
+      color: #ffffff;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      width: 600px;
+      color: #ffffff;
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+  
+    iframe {
+      display: block;
+      border: none;
+      border-radius: 10px;
+      width: 730px;
+      height: 410px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+}
+
+footer {
+  background-color: rgb(191, 36, 36);
+  height: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+}

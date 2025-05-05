@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cambria", "Cochin", Georgia, Times, "Times New Roman", "serif";
+}
+
+body {
+  background-color: #e72522e9;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  nav {
+    background-color: #f94848;
+    height: 70px;
+    width: 100%;
+    display: flex;
+
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      list-style: none;
+      padding: 0;
+
+      .img-nav {
+        width: 50px;
+        height: 50px;
+        float: left;
+      }
+
+      li {
+        font-size: 24px;
+        color: white;
+        display: inline;
+
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px;
+  }
+  
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
+  .independiente_shield {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ef3f3b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 570px;
+
+    img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+}
+
+  #social-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: 20px;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
