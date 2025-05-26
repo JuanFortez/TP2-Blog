@@ -25,7 +25,7 @@
 }
 @font-face {
   font-family: "Ancizar Serif";
-  src: url("../assets/Ancizar_Serif/static/AncizarSerif-Regular.ttf");
+  src: url("../assets/Ancizar_Serif/AncizarSerif-Regular.ttf");
 }
 * {
   margin: 0;
@@ -246,8 +246,8 @@ header nav ul li .nav-button:hover {
   gap: 10px;
 }
 .hero .hero-content .hero-item p {
-  font-size: 2.4rem;
-  font-family: "Galdeano";
+  font-size: 2.2rem;
+  font-family: "Mandali";
 }
 .hero .hero-content .hero-item:hover {
   content: "";
@@ -358,7 +358,7 @@ header nav ul li .nav-button:hover {
   font-family: "Ancizar Serif";
 }
 
-.active,
+.accordion-content .active,
 .accordion:hover {
   background-color: #ffb357;
 }
@@ -480,7 +480,7 @@ header nav ul li .nav-button:hover {
   border-radius: 10px;
   overflow: hidden;
   font-size: 2rem;
-  font-family: "Kanit";
+  font-family: "Ancizar Sans";
 }
 
 .act {
@@ -508,7 +508,8 @@ header nav ul li .nav-button:hover {
 }
 .act .act-content p {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: #fcdab1;
   border: 5px ridge #f8a66f;
   width: 900px;
@@ -518,7 +519,11 @@ header nav ul li .nav-button:hover {
   border-radius: 5px;
   left: 55%;
   font-size: 2.2rem;
-  font-family: "Kanit";
+  font-family: "Ancizar Serif";
+}
+
+.act .act-content p strong{
+  font-size: 2.3rem;
 }
 
 /*MAIN DISTRIBUCION*/
@@ -539,12 +544,12 @@ header nav ul li .nav-button:hover {
   border: 5px ridge #f8a66f;
   width: 1100px;
   height: auto;
-  padding: 20px;
+  padding: 50px;
   border-radius: 5px;
 }
 .dis .dis-content p {
-  font-size: 1.7rem;
-  font-family: "Kanit";
+  font-size: 1.9rem;
+  font-family: "Ancizar Serif";
 }
 
 /* carousel */
@@ -570,7 +575,6 @@ header nav ul li .nav-button:hover {
 .cards {
   background-color: #f8a66f;
   display: flex;
-  flex-direction: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
@@ -1166,8 +1170,7 @@ header nav ul li .nav-button:hover {
   }
   .act .act-content p {
     width: 600px;
-    height: 800px;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 1319px) {
