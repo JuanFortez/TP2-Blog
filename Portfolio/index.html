@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Porfolio - Juan Ignacio Fortez</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -13,21 +13,22 @@
   </head>
   <body>
     <header>
-      <h1>Mi Portfolio</h1>
+      <h1><a href="#">Mi Portfolio</a></h1>
       <nav>
         <ul>
           <li><a href="#about">Sobre mí</a></li>
           <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#cv">CV</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <!-- SOBRE MÍ -->
       <section id="about">
         <div id="aboutme">
-          <h2
-            class="animate__animated animate__heartBeat animate__repeat-2 animate__slow"
-          >
+          <h2>
             Juan Ignacio Fortez
           </h2>
           <p>
@@ -35,43 +36,75 @@
             me gusta mucho programar y perfeccionar mi conocimiento día a día.
           </p>
         </div>
-        <img id="img-aboutme" src="../imagenes/selfie.jpg" alt="" />
+        <img id="img-aboutme" src="../imagenes/selfie.jpg" alt=""/>
       </section>
 
+      <!-- PROYECTOS -->
       <section id="projects">
         <h2>Mis PROYECTOS</h2>
         <div id="project1" class="projects-container">
           <div class="project-description" data-aos="fade-up-right" data-aos-duration="1000">
             <h3>Blog Yaguareté</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              vitae non minus exercitationem enim odit nostrum? Vero ducimus ut
-              tempora quaerat accusamus similique consectetur nulla fugiat,
-              quibusdam blanditiis, ipsum magnam?
+              Este es un blog dedicado a la vida, el hábitat y la conservación del yaguareté, el felino más grande de América. Aquí encontrarás artículos informativos, fotografías impactantes y noticias actualizadas sobre los esfuerzos para proteger a esta especie en peligro de extinción. Nuestro objetivo es crear conciencia sobre la importancia del yaguareté en los ecosistemas y promover su preservación en la región.
             </p>
           </div>
-          <img src="../imagenes/selfie.jpg" frameborder="0" data-aos="fade-up-left" data-aos-duration="1000"></img>
+          <img src="../imagenes/Proyecto-Yaguarete.png" frameborder="0" data-aos="fade-up-left" data-aos-duration="1000"></img>
         </div>
         <div id="project2" class="projects-container">
           <div class="project-description" data-aos="fade-up-right" data-aos-duration="1000">
-            <h3>Blog Yaguareté</h3>
+            <h3>Login</h3>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              vitae non minus exercitationem enim odit nostrum? Vero ducimus ut
-              tempora quaerat accusamus similique consectetur nulla fugiat,
-              quibusdam blanditiis, ipsum magnam?
+             Sistema de autenticación de usuarios que permite el registro y acceso mediante nombre de usuario y contraseña. Utiliza una base de datos local para almacenar la información, lo que permite simular el funcionamiento de un login real en un entorno controlado. El proyecto está en etapa de desarrollo y fue realizado con fines académicos para la materia Testing de Aplicaciones.
             </p>
           </div>
-          <img src="../imagenes/selfie.jpg" frameborder="0" data-aos="fade-up-left" data-aos-duration="1000"></img>
+          <img src="../imagenes/Proyecto-Login.png" frameborder="0" data-aos="fade-up-left" data-aos-duration="1000"></img>
         </div>
       </section>
 
+      <!-- HABILIDADES -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <img src="../imagenes/HTML.png" alt="HTML5" title="HTML5" />
+          <img src="../imagenes/CSS.png" alt="CSS3" title="CSS3" />
+          <img src="../imagenes/JavaScript.png" alt="JavaScript" title="JavaScript" />
+          <img src="../imagenes/Python.png" alt="Python" title="Python" />
+        </div>
+      </section>
+
+      <!-- CURRICULUM -->
+      <section id="cv">
+        <h2>Currículum Vitae</h2>
+        <p>
+          Si lo necesitas, aquí está mi CV:
+          <a href="./CV/CV - FORTEZ, Juan Ignacio.pdf" download="CV - FORTEZ, Juan Ignacio.pdf">Descargar CV</a>
+        </p>
+      </section>
+
+      <!-- CONTACTO -->
       <section id="contact">
-        <h2>Contact</h2>
+        <h2>Contacto</h2>
         <p>
           Puedes contactarme a través de mi correo electrónico:
-          <a href="mailto:juanfortez112@gmail.com">juanfortez112@gmail.com</a>
+          <a id="email">juanfortez112@gmail.com</a>
         </p>
+
+        <p>También puedes hacerlo mediante mis redes</p>
+        <div id="social-links">
+          <a href="https://x.com/juanifortez" target="_blank">
+            <img src="../imagenes/X(white).png" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/juanfortez/" target="_blank">
+            <img src="../imagenes/linkedin.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/juanifortez/" target="_blank">
+            <img src="../imagenes/instagram.png" alt="" />
+          </a>
+          <a href="https://github.com/JuanFortez" target="_blank">
+            <img src="../imagenes/github(white).png" alt="" />
+          </a>
+        </div>
       </section>
     </main>
     <footer>
@@ -85,5 +118,7 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://unpkg.com/@pablotheblink/flashyjs@1.0.5/flashy.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
